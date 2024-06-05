@@ -25,9 +25,9 @@ export const textStyle = {
   whiteSpace: 'pre-wrap',
 }
 
-export const BORDER_SIMPLE = '1em solid rgb(102,178,255)'
-export const BORDER_FAIL = '1em solid rgb(255,0,127)'
-export const BORDER_SUCCESS = '1em solid rgb(0,204,102)'
+export const BORDER_SIMPLE = '1em solid rgb(17,37,218)'
+export const BORDER_FAIL = '1em solid rgb(0,204,102)'
+export const BORDER_SUCCESS = '1em solid rgb(255,247,0)'
 
 export const { Box, Heading, Text, VStack, vars } = createSystem({
   colors: {
