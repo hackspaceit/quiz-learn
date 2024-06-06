@@ -1,123 +1,105 @@
-# GPT Prompt
-
-Come up with entertaining quiz content for topic: **[YOUR_TOPIC]**.
-
-It is highly important to follow these rules during quiz creation:
-- No more than 60 symbols for the description.
-- The minimum and maximum number of answers is 3. No more, no less.
-- The length of the answer should be no more than 8 symbols.
-- Default amount of questions is 20.
-
-Required structure of the quiz.
-
-```json
 {
-  "shortDescription": "Test your knowledge of blockchain history with this quiz.",
+  "shortDescription": "Test your knowledge of Coinbase's Onchain Summer!",
   "questions": [
     {
-      "question": "Who created Bitcoin?",
-      "answers": ["Nakamoto", "Buterin", "Wright"],
+      "question": "What year was Coinbase founded?",
+      "answers": ["2012", "2013", "2014"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is the first blockchain?",
-      "answers": ["Bitcoin", "Ethereum", "Ripple"],
+      "question": "Who is Coinbase's CEO?",
+      "answers": ["Armstrong", "Buterin", "Lee"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "When was Bitcoin created?",
-      "answers": ["2009", "2010", "2011"],
+      "question": "Where is Coinbase headquartered?",
+      "answers": ["SF", "NY", "LA"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a block?",
-      "answers": ["Data", "Node", "Chain"],
+      "question": "Coinbase's stock ticker?",
+      "answers": ["COIN", "BTC", "ETH"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Which language is used in Ethereum?",
-      "answers": ["Solidity", "Rust", "Python"],
+      "question": "Coinbase's main product?",
+      "answers": ["Exchange", "Wallet", "Mining"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is mining?",
-      "answers": ["Validating", "Storing", "Sending"],
+      "question": "Coinbase launched an IPO in?",
+      "answers": ["2021", "2020", "2019"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a smart contract?",
-      "answers": ["Program", "Coin", "Wallet"],
+      "question": "Coinbase's primary asset?",
+      "answers": ["Bitcoin", "Gold", "Silver"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a DApp?",
-      "answers": ["App", "Database", "Protocol"],
+      "question": "What is Coinbase Earn?",
+      "answers": ["Learn", "Buy", "Sell"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a node?",
-      "answers": ["Computer", "Coin", "Block"],
+      "question": "Coinbase's primary competitor?",
+      "answers": ["Binance", "Gemini", "Kraken"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is DeFi?",
-      "answers": ["Finance", "Coin", "Protocol"],
+      "question": "Coinbase was co-founded by Brian and?",
+      "answers": ["Fred", "Mark", "John"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Who is Vitalik Buterin?",
-      "answers": ["Ethereum", "Bitcoin", "Ripple"],
+      "question": "Coinbase Wallet is?",
+      "answers": ["Custody", "Decentral", "Central"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Coinbase offers staking for?",
+      "answers": ["ETH", "BTC", "LTC"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is proof-of-work?",
-      "answers": ["Consensus", "Coin", "Block"],
+      "question": "Coinbase Pro is for?",
+      "answers": ["Trading", "Mining", "Staking"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a fork?",
-      "answers": ["Split", "Coin", "Block"],
+      "question": "Coinbase Ventures invests in?",
+      "answers": ["Startups", "Stocks", "Bonds"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "When was Ethereum launched?",
-      "answers": ["2015", "2014", "2016"],
+      "question": "Coinbase supports how many cryptos?",
+      "answers": ["100+", "50+", "10+"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a hash?",
-      "answers": ["Code", "Data", "Coin"],
+      "question": "Coinbase Card offers?",
+      "answers": ["Crypto", "Gold", "Silver"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is blockchain?",
-      "answers": ["Ledger", "Coin", "Node"],
+      "question": "Coinbase Custody is for?",
+      "answers": ["Institutions", "Individuals", "Miners"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is gas in Ethereum?",
-      "answers": ["Fee", "Coin", "Block"],
+      "question": "Coinbase's trading platform?",
+      "answers": ["Pro", "Prime", "Basic"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a private key?",
-      "answers": ["Password", "Coin", "Block"],
+      "question": "Coinbase Earn offers?",
+      "answers": ["Rewards", "Loans", "Deposits"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is Ripple?",
-      "answers": ["Payment", "Coin", "Node"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Who is Nick Szabo?",
-      "answers": ["Smart", "Coin", "Node"],
+      "question": "Coinbase launched in which country first?",
+      "answers": ["USA", "UK", "CAN"],
       "correctAnswerIndex": 0
     }
   ]
 }
-
-```
-
-Any deviations from these rules will result in a failed quiz.
-After creating a quiz.json the content of the file in code tag.
