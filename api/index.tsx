@@ -108,7 +108,7 @@ app.frame('/result', async c => {
     intents.push(<Button action={userDelegatedAddress ? '/answers' : '/authorize'}>🙋 Answers</Button>)
   }
 
-  intents.push(<Button.Link href="https://hack.dappykit.org/?source=quiz-template">🔴 Win Tokens</Button.Link>)
+  intents.push(<Button.Link href="https://starly.fun/gamses">🔴 Win $Degen</Button.Link>)
 
   return c.res({
     title: appTitle,
