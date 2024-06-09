@@ -45,8 +45,7 @@
       "question": "What is staking?",
       "answers": ["Earn", "Sell", "Trade"],
       "correctAnswerIndex": 0
-    },
-    
+    },    
     {
       "question": "What is a swap?",
       "answers": ["Trade", "Sell", "Mint"],
