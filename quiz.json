@@ -1,55 +1,55 @@
 {
-  "shortDescription": "Test your trading & market knowledge and get OP token rewards.",
+  "shortDescription": "Test your knowledge of Football Champions League History and Win OP Token Reward.",
   "questions": [
     {
-      "question": "What is an IPO?",
-      "answers": ["Listing", "Merger", "Drop"],
+      "question": "Who won 1992?",
+      "answers": ["Barça", "Milan", "Ajax"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is FOMO?",
-      "answers": ["Fear", "Greed", "Calm"],
+      "question": "Most titles?",
+      "answers": ["Real", "Milan", "Barça"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is ROI?",
-      "answers": ["Return", "Risk", "Growth"],
+      "question": "Top scorer?",
+      "answers": ["Ronaldo", "Messi", "Raul"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is ATH?",
-      "answers": ["High", "Low", "Trade"],
+      "question": "First winner?",
+      "answers": ["Real", "Milan", "Benfica"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Define DEX.",
-      "answers": ["Exchange", "Broker", "Bank"],
+      "question": "1999 winner?",
+      "answers": ["United", "Bayern", "Juve"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a DApp?",
-      "answers": ["App", "Coin", "Token"],
+      "question": "2005 winner?",
+      "answers": ["Liver", "Milan", "Barça"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Define BNB.",
-      "answers": ["Coin", "Stock", "Bond"],
+      "question": "2008 winner?",
+      "answers": ["United", "Chelsea", "Barça"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is KYC?",
-      "answers": ["Know", "Keep", "Kill"],
+      "question": "2013 winner?",
+      "answers": ["Bayern", "Dortmund", "Juve"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is staking?",
-      "answers": ["Earn", "Sell", "Trade"],
+      "question": "2014 winner?",
+      "answers": ["Real", "Atleti", "Barça"],
       "correctAnswerIndex": 0
-    },    
+    },
     {
-      "question": "What is a swap?",
-      "answers": ["Trade", "Sell", "Mint"],
+      "question": "2016 winner?",
+      "answers": ["Real", "Atleti", "Barça"],
       "correctAnswerIndex": 0
     }
   ]
-} 
+}
