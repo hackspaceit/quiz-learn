@@ -1,5 +1,5 @@
 {
-  "shortDescription": "Test your trading and market knowledge.",
+  "shortDescription": "Test your trading & market knowledge and get OP token rewards.",
   "questions": [
     {
       "question": "What is an IPO?",
