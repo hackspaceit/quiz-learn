@@ -1,5 +1,5 @@
 {
-  "shortDescription": "Test your knowledge of finance with this quiz.",
+  "shortDescription": "Test your knowledge of finance with this quiz and claim 60 $DEGEN Token Every Quiz Seasions.",
   "questions": [
     {
       "question": "What is ROI?",

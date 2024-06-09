@@ -108,7 +108,7 @@ app.frame('/result', async c => {
     intents.push(<Button action={userDelegatedAddress ? '/answers' : '/authorize'}>🙋 Answers</Button>)
   }
 
-  intents.push(<Button.Link href="https://starly.fun/gamses">🔴 Win $Degen</Button.Link>)
+  intents.push(<Button.Link href="https://docs.google.com/forms/d/e/1FAIpQLSfJfI471u79XAMhzk79vK45LEtf0-LBJ9b79z4d_uV4AJMNFA/viewform">🔴 Claim $DEGEN</Button.Link>)
 
   return c.res({
     title: appTitle,
