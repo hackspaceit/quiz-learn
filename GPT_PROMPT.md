@@ -1,35 +1,65 @@
 {
-  "shortDescription": "Test your knowledge of finance with this quiz and claim 60 $DEGEN Token Every Quiz Seasions.",
+  "shortDescription": "Test your trading and market knowledge.",
   "questions": [
     {
+      "question": "What is an IPO?",
+      "answers": ["Listing", "Merger", "Drop"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is FOMO?",
+      "answers": ["Fear", "Greed", "Calm"],
+      "correctAnswerIndex": 0
+    },
+    {
       "question": "What is ROI?",
-      "answers": ["Return", "Loss", "Revenue"],
+      "answers": ["Return", "Risk", "Growth"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is a bond?",
-      "answers": ["Loan", "Stock", "Fund"],
+      "question": "What is ATH?",
+      "answers": ["High", "Low", "Trade"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is equity?",
-      "answers": ["Assets", "Debt", "Equity"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "question": "What is a stock?",
-      "answers": ["Share", "Loan", "Bond"],
+      "question": "Define DEX.",
+      "answers": ["Exchange", "Broker", "Bank"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "What is liquidity?",
-      "answers": ["Assets", "Cash", "Credit"],
-      "correctAnswerIndex": 1
+      "question": "What is a DApp?",
+      "answers": ["App", "Coin", "Token"],
+      "correctAnswerIndex": 0
     },
     {
-      "question": "What is a dividend?",
-      "answers": ["Profit", "Loss", "Expense"],
+      "question": "Define BNB.",
+      "answers": ["Coin", "Stock", "Bond"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is KYC?",
+      "answers": ["Know", "Keep", "Kill"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is staking?",
+      "answers": ["Earn", "Sell", "Trade"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Define HODL.",
+      "answers": ["Hold", "Sell", "Buy"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "Define gas.",
+      "answers": ["Fee", "Token", "Coin"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What is a swap?",
+      "answers": ["Trade", "Sell", "Mint"],
       "correctAnswerIndex": 0
     }
   ]
-}   
+}
