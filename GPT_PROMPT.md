@@ -46,20 +46,11 @@
       "answers": ["Earn", "Sell", "Trade"],
       "correctAnswerIndex": 0
     },
-    {
-      "question": "Define HODL.",
-      "answers": ["Hold", "Sell", "Buy"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "Define gas.",
-      "answers": ["Fee", "Token", "Coin"],
-      "correctAnswerIndex": 0
-    },
+    
     {
       "question": "What is a swap?",
       "answers": ["Trade", "Sell", "Mint"],
       "correctAnswerIndex": 0
     }
   ]
-}
+} 
