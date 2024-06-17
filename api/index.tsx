@@ -28,7 +28,7 @@ app.frame('/', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" backgroundColor="white" padding="32" border={BORDER_SIMPLE}>
+      <Box grow alignVertical="center" backgroundColor="white" padding="24" border={BORDER_SIMPLE}>
       <VStack gap="4">
         <Heading color="h1Text" align="center" size="48">
           Quiz & GiveAway Time!
@@ -36,7 +36,7 @@ app.frame('/', async c => {
 
         <Text align="center" size="16">
         Answer the quiz correctly and get attractive prizes at the end of the game.
-        </Text>
+     <br><p>Prizes are limited in each game session and we select the top 50 rankers to win prizes!</p></br>   </Text>
       </VStack>
     </Box>
     ),
