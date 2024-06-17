@@ -35,8 +35,8 @@ app.frame('/', async c => {
         </Heading>
 
         <Text align="center" size="16">
-        <b>{quizData.shortDescription}</b><br></br>
-        Answer the quiz correctly and get 🍒 $CHERRY Token prizes at the end of the game. </Text>
+        {quizData.shortDescription}
+        <p><br>Answer the quiz correctly and get 🍒 $CHERRY Token prizes at the end of the game.</br> </p></Text>
       </VStack>
     </Box>
     ),
