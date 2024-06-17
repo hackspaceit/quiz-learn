@@ -1,55 +1,55 @@
 {
-  "shortDescription": "Test your knowledge of Football Champions League History and Win OP Token Reward.",
+  "shortDescription": "Test your knowledge of blockchain technology.",
   "questions": [
     {
-      "question": "Who won 1992?",
-      "answers": ["Barça", "Milan", "Ajax"],
+      "question": "What is Bitcoin?",
+      "answers": ["Crypto", "Stock", "Bond"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Most titles?",
-      "answers": ["Real", "Milan", "Barça"],
+      "question": "What is a node?",
+      "answers": ["User", "Block", "Ledger"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is a block?",
+      "answers": ["Data", "Coin", "Key"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "Top scorer?",
-      "answers": ["Ronaldo", "Messi", "Raul"],
+      "question": "What is a fork?",
+      "answers": ["Split", "Join", "Loop"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "First winner?",
-      "answers": ["Real", "Milan", "Benfica"],
+      "question": "What is Ethereum?",
+      "answers": ["Crypto", "Token", "Chain"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is PoW?",
+      "answers": ["Proof", "Block", "Token"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "1999 winner?",
-      "answers": ["United", "Bayern", "Juve"],
+      "question": "What is PoS?",
+      "answers": ["Stake", "Token", "Chain"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "2005 winner?",
-      "answers": ["Liver", "Milan", "Barça"],
+      "question": "What is a wallet?",
+      "answers": ["Store", "Bank", "Block"],
       "correctAnswerIndex": 0
     },
     {
-      "question": "2008 winner?",
-      "answers": ["United", "Chelsea", "Barça"],
-      "correctAnswerIndex": 0
+      "question": "What is mining?",
+      "answers": ["Minting", "Storing", "Creating"],
+      "correctAnswerIndex": 2
     },
     {
-      "question": "2013 winner?",
-      "answers": ["Bayern", "Dortmund", "Juve"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "2014 winner?",
-      "answers": ["Real", "Atleti", "Barça"],
-      "correctAnswerIndex": 0
-    },
-    {
-      "question": "2016 winner?",
-      "answers": ["Real", "Atleti", "Barça"],
-      "correctAnswerIndex": 0
+      "question": "What is a hash?",
+      "answers": ["Key", "ID", "Value"],
+      "correctAnswerIndex": 1
     }
   ]
 }

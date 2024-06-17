@@ -31,11 +31,11 @@ app.frame('/', async c => {
       <Box grow alignVertical="center" backgroundColor="white" padding="24" border={BORDER_SIMPLE}>
       <VStack gap="4">
         <Heading color="h1Text" align="center" size="48">
-        🍒$CHERRY Quiz Time!
+        🍒$CHERRY QUIZ
         </Heading>
 
         <Text align="center" size="16">
-        {quizData.shortDescription}
+        <br>{quizData.shortDescription}</br>
         <p><br>Answer the quiz correctly and get 🍒 $CHERRY Token prizes at the end of the game.</br> </p></Text>
       </VStack>
     </Box>
