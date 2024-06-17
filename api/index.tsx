@@ -23,7 +23,7 @@ export const app = new Frog({
 app.frame('/', async c => {
   const { appTitle } = await configureApp(app, c, 'appAuthUrl')
 
-  const intents = [<Button action="/next">⭐ Start</Button>]
+  const intents = [<Button action="/next">Play Game</Button>]
 
   return c.res({
     title: appTitle,
@@ -77,9 +77,9 @@ app.frame('/next', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" backgroundColor="white" padding="32" border={BORDER_SIMPLE}>
+      <Box grow alignVertical="center" backgroundImage="/public/bg.jpg" padding="32" border={BORDER_SIMPLE}>
         <VStack gap="4">
-          <Heading color="h1Text" align="center" size="64">
+          <Heading color="h1Text" align="center" size="48">
             {quiz.questions[questionIndex].question}
           </Heading>
           <Text align="center" size="18">
@@ -108,7 +108,7 @@ app.frame('/result', async c => {
     intents.push(<Button action={userDelegatedAddress ? '/answers' : '/authorize'}>🙋 Answers</Button>)
   }
 
-  intents.push(<Button.Link href="https://hack.dappykit.org/?source=quiz-template">🔴 Claim $DEGEN</Button.Link>)
+  intents.push(<Button.Link href="https://hack.dappykit.org/?source=quiz-template">Claim Reward</Button.Link>)
 
   return c.res({
     title: appTitle,
