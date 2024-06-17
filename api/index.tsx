@@ -28,7 +28,7 @@ app.frame('/', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" backgroundColor="white" padding="24" border={BORDER_SIMPLE}>
+      <Box grow alignVertical="center" backgroundColor="gold" padding="24" border={BORDER_SIMPLE}>
       <VStack gap="4">
         <Heading color="h1Text" align="center" size="48">
           Quiz & GiveAway Time!
