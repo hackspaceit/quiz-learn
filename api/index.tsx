@@ -31,13 +31,12 @@ app.frame('/', async c => {
       <Box grow alignVertical="center" backgroundColor="white" padding="24" border={BORDER_SIMPLE}>
       <VStack gap="4">
         <Heading color="h1Text" align="center" size="48">
-          Quiz & GiveAway Time!
+        🍒$CHERRY Quiz Time!
         </Heading>
 
         <Text align="center" size="16">
-        <b>{quizData.shortDescription}</b>
-        Answer the quiz correctly and get attractive prizes at the end of the game.
-     <br><p>Prizes are limited in each game session and we select the top 50 ranked to win prizes!</p></br>   </Text>
+        <b>{quizData.shortDescription}</b><br></br>
+        Answer the quiz correctly and get 🍒 $CHARRY Token prizes at the end of the game. </Text>
       </VStack>
     </Box>
     ),
@@ -109,7 +108,7 @@ app.frame('/result', async c => {
     intents.push(<Button action={userDelegatedAddress ? '/answers' : '/authorize'}> Answers</Button>)
   }
 
-  intents.push(<Button.Link href="https://cherryonblast.com/?referral=5u0aqDF">Claim Reward</Button.Link>)
+  intents.push(<Button.Link href="https://cherryonblast.com/?referral=5u0aqDF">Claim 🍒 $CHERRY</Button.Link>)
 
   return c.res({
     title: appTitle,
