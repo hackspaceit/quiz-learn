@@ -36,7 +36,7 @@ app.frame('/', async c => {
 
         <Text align="center" size="16">
         <b>{quizData.shortDescription}</b><br></br>
-        Answer the quiz correctly and get 🍒 $CHARRY Token prizes at the end of the game. </Text>
+        Answer the quiz correctly and get 🍒 $CHERRY Token prizes at the end of the game. </Text>
       </VStack>
     </Box>
     ),
