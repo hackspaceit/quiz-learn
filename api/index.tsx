@@ -9,7 +9,7 @@ import quizData from '../quiz.json' assert { type: 'json' }
 import { Quiz } from './quiz/index.js'
 import { kvGetDelegatedAddress, kvPutMnemonic } from './utils/kv.js'
 import { dappySaveData } from './utils/dappykit.js'
-
+<meta property="fc:frame:image:aspect_ratio" content="1.91:1" />
 const { ViemUtils, Utils } = dappykit
 const { generateMnemonic, privateKeyToAccount, english, mnemonicToAccount } = ViemUtils
 const { accountToSigner } = Utils.Signer
