@@ -28,8 +28,17 @@ app.frame('/', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box background-Image="/public/bg.png" >
-      </Box>
+      <Box grow alignVertical="center" backgroundColor="white" padding="32" border={BORDER_SIMPLE}>
+      <VStack gap="4">
+        <Heading color="h1Text" align="center" size="48">
+          Quiz & GiveAway Time!
+        </Heading>
+
+        <Text align="center" size="16">
+        Answer the quiz correctly and get attractive prizes at the end of the game.
+        </Text>
+      </VStack>
+    </Box>
     ),
     intents,
   })
@@ -43,7 +52,7 @@ app.frame('/next', async c => {
   const quiz = new Quiz(quizData, questionIndex, points)
   const isLastQuestion = questionIndex >= quiz.questions.length - 1
   const action = isLastQuestion ? '/result' : '/next'
-  const message = encodeURIComponent(`🚀 Check out the Quiz!`)
+  const message = encodeURIComponent(`Check out the Quiz!`)
   const buttonUrl = `https://warpcast.com/~/compose?text=${message}&embeds[]=${appShareUrl}`
 
   const answers = quiz.questions[questionIndex].answers.map((item, index) => ({
@@ -62,7 +71,7 @@ app.frame('/next', async c => {
         </Button>
       )
     }),
-    <Button.Link href={buttonUrl}>🔗 Share</Button.Link>,
+    <Button.Link href={buttonUrl}>Share</Button.Link>,
   ])
 
   return c.res({
@@ -92,7 +101,7 @@ app.frame('/result', async c => {
   const isWin = points === quiz.questions.length
   const resultText = isWin ? "That's right! Well done!" : 'You can do better!'
   const userDelegatedAddress = await kvGetDelegatedAddress(userMainAddress)
-  const intents = [<Button action="/">🔁 Again</Button>]
+  const intents = [<Button action="/">Try Again</Button>]
 
   if (!isWin) {
     // if user authorized navigate to answers, if not direct to authorize
@@ -146,7 +155,7 @@ app.frame('/authorize', async c => {
 
   if (userDelegatedAddress) {
     text = '✅ The application is authorized! You can view the answers.'
-    intents = [<Button action={'/answers'}>🙋 Answers</Button>]
+    intents = [<Button action={'/answers'}> Answers</Button>]
     try {
       await dappySaveData(dappyKit, appAddress, userMainAddress, 'I was here!')
     } catch (e) {
@@ -157,9 +166,9 @@ app.frame('/authorize', async c => {
       text = `⏳ Waiting...`
       intents = [
         <Button value="check-status" action="/authorize">
-          🔁 Check Status
+           Check Status
         </Button>,
-        <Button.Reset>🏠 Home</Button.Reset>,
+        <Button.Reset> Home</Button.Reset>,
       ]
     } else {
       try {
@@ -221,7 +230,7 @@ app.frame('/answers', async c => {
   const intents = []
 
   if (isLastQuestion) {
-    intents.push(<Button action="/">🏠 Home</Button>)
+    intents.push(<Button action="/">Home</Button>)
   } else {
     intents.push(
       <Button value={(questionIndex + 1).toString()} action="/answers">
