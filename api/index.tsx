@@ -28,7 +28,7 @@ app.frame('/', async c => {
   return c.res({
     title: appTitle,
     image: (
-      <Box grow alignVertical="center" background-Image="/public/bg.png" >
+      <Box grow alignVertical="center" background-Image="{APP_SHARE_URL}/public/bg.png" >
       </Box>
     ),
     intents,
